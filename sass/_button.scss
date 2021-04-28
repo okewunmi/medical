@@ -1,0 +1,136 @@
+.btn-1{
+padding: 1.4rem 2.8rem;
+color: white;
+background-color: rgb(13, 151, 13);
+border: none;
+font-size: 2.2rem;
+border-radius: 100rem;
+margin-top: 6rem;
+transition: all .3s;
+cursor: pointer;
+position: relative;
+
+&:focus{
+ outline: none;
+}
+&:hover{
+ transform: translateY(-1rem);
+ background-color: #352a6f;
+}
+&:active{
+ background-color: rgb(53, 134, 53);
+ transform: scale(1.3);
+}
+&::before{
+ content: "";
+ position: absolute;
+ height: 100%;
+ width: 100%;
+padding: 1.3rem 2.8rem;
+color: white;
+background-color:#352a6f;
+border: none;
+font-size: 2.2rem;
+border-radius: 100rem;
+margin-top: 6rem;
+box-sizing: border-box;
+top: -5.2rem;
+right: -1rem;
+z-index: -1;
+
+ 
+}
+&:hover::before{
+ visibility: hidden;
+}
+
+}
+.btn-2{
+ display: flex;
+ align-self: start;
+ padding: 2rem 4rem;
+ color: white;
+ background-color: #352a6f;
+ border: none;
+ font-size: 1.6rem;
+ margin-top: 4rem;
+ border-radius: 100rem;
+ transition: all .3s;
+ position: relative;
+ cursor: pointer;
+ 
+ &:focus{
+  outline: none;
+ }
+ &:hover{
+  transform: translateY(-1rem);
+  background-color: rgb(13, 151, 13);
+ }
+ &:active{
+  background-color: #352a6f;
+  transform: scale(1.3);
+ }
+
+ &::before{
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  padding: 2rem 4rem;
+ color: white;
+ background-color: rgb(13, 151, 13);
+ border: none;
+ font-size: 1.6rem;
+ margin-top: 4rem;
+ border-radius: 100rem;
+ top: -3.3rem;
+ right: -1rem;
+ z-index: -3;
+ 
+ 
+ }
+ &:hover::before{
+  visibility: hidden;
+ }
+ }
+
+ .btn-3{
+  flex: 0 0 10%;
+  align-self:flex-start;
+ 
+  padding: 1.5rem 3.8rem;
+color: white;
+background-color: rgb(13, 151, 13);
+border: none;
+font-size: 1.4rem;
+border-radius: 100rem;
+margin-top: 6rem;
+margin-right:6.5rem;
+transition: all .3s;
+cursor: pointer;
+position: relative;
+
+&:focus{
+ outline: none;
+}
+
+&:active{
+ background-color: rgb(53, 134, 53);
+ transform: scale(1.3);
+}
+ }
+ .btn-4{
+  padding: 1.5rem 3.8rem;
+  color: white;
+  background-color: rgb(13, 151, 13);
+  border: none;
+  font-size: 1.4rem;
+  border-radius: 100rem;
+  transition: all .3s;
+cursor: pointer;
+text-transform: uppercase;
+
+&:focus{
+ outline: none;
+}
+ }

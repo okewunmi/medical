@@ -1,0 +1,96 @@
+.heading-1{
+font-size: 6rem;
+}
+.heading-2{
+ font-size:4.5rem;
+ margin-top: 10rem;
+ 
+}
+.heading-3{
+ margin-top: 3.1rem;
+ font-size:2.1rem;
+ letter-spacing: .1rem;
+ font-weight: bold;
+ line-height: 3.2rem;
+}
+.heading-4{
+font-size: 2rem;
+font-weight: normal;
+margin-bottom: 3.5rem;
+}
+.text--1{
+ font-weight: bold;
+ margin-bottom: .8rem;
+}
+.text-1{
+ margin-top: 4rem;
+ font-size: 1.5rem;
+ text-align: left;
+ word-spacing: .2rem;
+ line-height: 2.3rem;
+ letter-spacing: .08rem;
+}
+.text-2{
+margin-top: 3rem;
+ font-size: 1.35rem;
+ text-align: left;
+ word-spacing: .1rem;
+ line-height: 2.2rem;
+ letter-spacing: .05rem;
+}
+
+.margin-bt{
+ margin-bottom:6rem ;
+}
+.green-txt{
+ color: green;
+ font-size: 2.8rem;
+ font-weight: bold;
+}
+.foward-splash{
+ font-size: 2.8rem;
+}
+.gt{
+ color:#352a6f;
+ margin:0 1.8rem 0 1.8rem;
+ transition: all .2s;
+
+ &:hover{
+  cursor: pointer;
+  color: green;
+ }
+ &:active{
+  color: green;
+  transform: translateX(1.2);
+  cursor: pointer;
+ }
+}
+.rotate{
+transform: rotateZ(270deg);
+}
+.green{
+ background-color: rgb(0, 219, 0);
+}
+.center{
+ text-align: center;
+}
+.txt{
+ margin-top: .5rem;
+}
+.bold{
+ font-weight:600 ;
+}
+.upper{
+ text-transform: uppercase;
+}
+.marginleft{
+ margin-left:auto;
+}
+.margintop{
+margin-top: -3.5rem;
+
+}
+.marginright{
+ margin-right: 1.4rem;
+}
+
